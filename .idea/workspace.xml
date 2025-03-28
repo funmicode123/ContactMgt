@@ -4,15 +4,77 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="677ad6d6-fede-4f9c-a567-226ef15019f2" name="Changes" comment="" />
+    <list default="true" id="677ad6d6-fede-4f9c-a567-226ef15019f2" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/DeleteContactRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/EditContactRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/AddContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/DeleteContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/EditContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/SearchContactResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/ContactController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/ContactNotFoundException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/EmailCannotBeChangeResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/EmailCannotBeChangedException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/ErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/Exception.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/PhoneNumberAlreadyExistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactSearchService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactSearchServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/DeleteContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/DeleteContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/EditContactService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/EditContactServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/utils/Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/funmi/services/ContactServiceImplTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/AddContactRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/AddContactRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/data/models/Contact.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/data/repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/data/repositories/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactService.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Exception" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;funmicode123&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/funmicode123/ContactMgt.git&quot;,
+    &quot;accountId&quot;: &quot;0643257c-2e0e-4031-8347-fd53ed58004a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2unm1TwYhCmspf0CpRtsSmjzgVW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -21,13 +83,108 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "JUnit.ContactServiceImplTest.createContact.executor": "Run",
+    "JUnit.ContactServiceImplTest.executor": "Run",
+    "JUnit.ContactServiceImplTest.searchByPhoneNumberTest.executor": "Run",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "Spring Boot.Main.executor": "Run",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
+    "last_directory_selection": "C:/Users/DELL/Desktop/ContactMgt/src/test/java/com/funmi/services",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "onboarding.tips.debug.path": "C:/Users/DELL/Desktop/ContactMgt/src/main/java/com/funmi/Main.java",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.funmi.services" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.Main">
+    <configuration name="ContactServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactMgt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.funmi.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.funmi.services" />
+      <option name="MAIN_CLASS_NAME" value="com.funmi.services.ContactServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactServiceImplTest.createContact" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactMgt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.funmi.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.funmi.services" />
+      <option name="MAIN_CLASS_NAME" value="com.funmi.services.ContactServiceImplTest" />
+      <option name="METHOD_NAME" value="createContact" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ContactServiceImplTest.searchByPhoneNumberTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ContactMgt" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.funmi.services.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.funmi.services" />
+      <option name="MAIN_CLASS_NAME" value="com.funmi.services.ContactServiceImplTest" />
+      <option name="METHOD_NAME" value="searchByPhoneNumberTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="ContactMgt" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.funmi.Main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.funmi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Main" />
+        <item itemvalue="JUnit.ContactServiceImplTest.searchByPhoneNumberTest" />
+        <item itemvalue="JUnit.ContactServiceImplTest" />
+        <item itemvalue="JUnit.ContactServiceImplTest.createContact" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -44,22 +201,13 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1742892506451</updated>
-      <workItem from="1742892507538" duration="24000" />
+      <workItem from="1742892507538" duration="18287000" />
+      <workItem from="1742914731052" duration="34584000" />
+      <workItem from="1742999845348" duration="54265000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/funmi/Main.java</url>
-          <line>13</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
