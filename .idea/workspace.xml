@@ -5,42 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="677ad6d6-fede-4f9c-a567-226ef15019f2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/DeleteContactRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/EditContactRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/AddContactResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/DeleteContactResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/EditContactResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/SearchContactResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/config/WebConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/ContactController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/GlobalExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/ContactNotFoundException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/EmailCannotBeChangeResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/EmailCannotBeChangedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/ErrorResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/Exception.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/exceptions/PhoneNumberAlreadyExistsException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactSearchService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactSearchServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/DeleteContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/DeleteContactServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/EditContactService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/EditContactServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/utils/Mapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/funmi/services/ContactServiceImplTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/CreateSignupRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/LoginRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/CreateSignupResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/response/LoginResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/data/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/data/repositories/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/AddContactRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/DTO/requests/AddContactRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/data/models/Contact.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/data/models/Contact.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/data/repositories/ContactRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/data/repositories/ContactRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/ContactController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/controllers/ContactController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/services/ContactService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/funmi/utils/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/funmi/utils/Mapper.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +180,7 @@
       <updated>1742892506451</updated>
       <workItem from="1742892507538" duration="18287000" />
       <workItem from="1742914731052" duration="34584000" />
-      <workItem from="1742999845348" duration="54265000" />
+      <workItem from="1742999845348" duration="63927000" />
     </task>
     <servers />
   </component>

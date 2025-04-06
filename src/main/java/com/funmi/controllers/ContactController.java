@@ -96,11 +96,13 @@ public class ContactController {
     }
 
     @GetMapping("/search/phone")
-    public ResponseEntity<?> searchByPhone(@RequestParam String phoneNumber) {
+    public ResponseEntity<SearchContactResponse> searchByPhone(@RequestParam String phoneNumber) {
         String decodedNumber = URLDecoder.decode(phoneNumber, StandardCharsets.UTF_8);
-        SearchContactResponse response = contactSearchService.searchByPhoneNumber(decodedNumber);
-        return ResponseEntity.ok(response);
+        return contactSearchService.searchByPhoneNumber(decodedNumber)
+                .map(ResponseEntity::ok)
+                .orElse(ResponseEntity.notFound().build());
     }
+
 
 //    @GetMapping("/search/phone")
 //    public ResponseEntity<?> searchByPhone(@RequestParam String phoneNumber) {
@@ -117,6 +119,12 @@ public class ContactController {
     @GetMapping("/search/name")
     public ResponseEntity<List<Contact>> searchByName(@RequestParam String name) {
         List<Contact> contacts = contactSearchService.searchByName(name);
+        return ResponseEntity.ok(contacts);
+    }
+
+    @GetMapping("/show")
+    public ResponseEntity<List<Contact>> getAllContacts() {
+        List<Contact> contacts = contactService.getAllContacts();
         return ResponseEntity.ok(contacts);
     }
 }

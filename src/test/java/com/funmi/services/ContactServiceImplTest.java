@@ -5,6 +5,7 @@ import com.funmi.DTO.requests.EditContactRequest;
 import com.funmi.DTO.response.AddContactResponse;
 import com.funmi.DTO.response.DeleteContactResponse;
 import com.funmi.DTO.response.EditContactResponse;
+import com.funmi.DTO.response.SearchContactResponse;
 import com.funmi.data.models.Contact;
 import com.funmi.data.repositories.ContactRepository;
 import org.junit.jupiter.api.Test;
@@ -101,7 +102,7 @@ class ContactServiceImplTest {
 
         Optional<Contact> contact = contactRepository.findByPhoneNumber("+2349065775432");
 
-        Optional<Contact> foundContact = contactSearchService.searchByPhoneNumber("+2349065775432");
+        Optional<SearchContactResponse> foundContact = contactSearchService.searchByPhoneNumber("+2348123456789");
         assertTrue(foundContact.isPresent(), "Contact should exist");
     }
 

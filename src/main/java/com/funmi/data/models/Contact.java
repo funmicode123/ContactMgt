@@ -21,6 +21,7 @@ public class Contact {
     @Indexed(unique = true)
     private String phoneNumber;
     @Email(message = "Email is required")
+    @Indexed(unique = true)
     private String email;
     @NotNull
     private String location;

@@ -7,6 +7,6 @@ import java.util.List;
 import java.util.Optional;
 
 public interface ContactSearchService {
-    SearchContactResponse searchByPhoneNumber(String phoneNumber);
+    Optional<SearchContactResponse> searchByPhoneNumber(String phoneNumber);
     List<Contact> searchByName(String name);
 }
